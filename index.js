@@ -34,7 +34,7 @@ const inputBox = document.getElementById('sup')
   function onYellowClick() {
   }
   
-  p. addEventListener('click', () ==> {
-    
+  p.addEventListener('click', (event) => {
+    console.log(event)
   } )
   }
