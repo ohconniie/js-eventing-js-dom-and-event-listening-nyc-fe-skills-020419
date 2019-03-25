@@ -8,6 +8,6 @@ const main = document.getElementById('main')
 
 function onClick() {
   console.log('hey the click hapened')
-  
-  main.addEventListener('click', onClick)
 }
+
+  main.addEventListener('click', onClick)
