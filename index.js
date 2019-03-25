@@ -28,3 +28,13 @@ const inputBox = document.getElementById('sup')
   }
   
   inputBox.addEventListener('keydown', onInputKeyDown)
+  
+  const p = document.getElementById('yellow')
+  
+  function onYellowClick() {
+  }
+  
+  p. addEventListener('click', () ==> {
+    
+  } )
+  }
