@@ -7,7 +7,7 @@ const main = document.getElementById('main')
 // 2. is the fucntionat that is supposed to run when that event happens
 
 function onClick() {
-  console.log('hey the click hapened')
+  console.log('hey the click happened')
 }
 
   main.addEventListener('click', onClick)
