@@ -31,11 +31,7 @@ const inputBox = document.getElementById('sup')
   
   const p = document.getElementById('yellow')
   
-  function onYellowClick() {
-  }
-  
   p.addEventListener('click', (event) => {
     console.log(event)
     p.style.backgroundColor = 'yellow'
-  } )
-  }
+  })
