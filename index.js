@@ -50,5 +50,6 @@ const inputBox = document.getElementById('sup')
 for (let div of divs) {
   div.addEventListener('click', (event) => {
     console.log(event)
+    event.stopPropagation()
   })
 }
