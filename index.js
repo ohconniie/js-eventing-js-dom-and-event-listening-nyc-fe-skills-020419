@@ -41,6 +41,6 @@ const inputBox = document.getElementById('sup')
   
   button.addEventListener('click', () => {
     const newP = document.createElement('p')
-    newP.innerHTML = 'Congratulations'
+    newP.innerHTML = 'Congratulations!'
      // <p>congratulations
   })
