@@ -35,3 +35,10 @@ const inputBox = document.getElementById('sup')
     console.log(event)
     p.style.backgroundColor = 'yellow'
   })
+  
+  
+  const button = document.getElementById('plus')
+  
+  button.addEventListener('click', () => {
+    
+  })
