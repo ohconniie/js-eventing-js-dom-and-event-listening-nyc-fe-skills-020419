@@ -43,5 +43,6 @@ const inputBox = document.getElementById('sup')
     const newP = document.createElement('p')
     newP.innerHTML = 'Congratulations!'
     document.body.appendChild (newP)
-     // <p>congratulations
   })
+  
+  const divs = document.querySelectorAll('div')
