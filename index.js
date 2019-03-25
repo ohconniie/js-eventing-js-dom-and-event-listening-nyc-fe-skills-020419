@@ -6,8 +6,14 @@ const main = document.getElementById('main')
 // 1. is the event that we care about
 // 2. is the fucntionat that is supposed to run when that event happens
 
-function onClick() {
-  console.log('hey the click happened')
+function onClick(event) {
+  console.log(event)
+}
+  
+function onKeyDown(event) {
+  console.log(event)
 }
 
   main.addEventListener('click', onClick)
+  document.addEventListener('keydown', onKeyDown)
+  
